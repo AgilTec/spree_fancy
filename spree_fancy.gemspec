@@ -15,15 +15,14 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.2.0.beta'
+  s.add_dependency 'spree_core', '~> 2.2.0'
   s.add_dependency 'compass-rails'
   s.add_dependency 'jquery-ui-rails'
-  s.add_dependency 'deface', '~> 1.0.0rc3'
+  s.add_dependency 'deface', '~> 1.0.0rc4'
 
-  s.add_development_dependency 'capybara', '1.0.1'
-  s.add_development_dependency 'factory_girl', '~> 2.6.4'
+  s.add_development_dependency 'capybara', '~> 2.2.1'
+  s.add_development_dependency 'factory_girl', '~> 4.4.0'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails',  '~> 2.9'
-  s.add_development_dependency 'spree_auth_devise'
+  s.add_development_dependency 'rspec-rails',  '~> 2.14.1'
   s.add_development_dependency 'sqlite3'
 end
